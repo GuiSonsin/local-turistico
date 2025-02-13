@@ -4,8 +4,9 @@
 }
 
 :root{
-    line-height: 150%;
     color: #333333;
+    font-family: "Open Sans", serif;
+    line-height: 150%;
 }
 
 #page{
@@ -20,11 +21,13 @@ img{
     width: 100%;
 }
 
-img + p{
+.subtitle{
     margin: 24px auto;
     text-align: center;
     height: 37px;
     width: 97%;
+    font-size: 16px;
+    font-style: italic;
 }
 
 .divider {
@@ -34,21 +37,34 @@ img + p{
     background-color: #d9d9d9;
   }
 
-  body{
-    background-color: #F5F4F0;
-  }
+body{
+    background-color: white;
+}
 
 h1{
     margin-top: 4px;
     margin-bottom: 40px;
     line-height: 49px;
+    font-size: 36px;
+    font-weight: bold;
 }
 
 h2{
     color: #1B1B1B;
+    font-size: 32px;
+    font-weight: bold;
 }
 
-h6{
+li{
+    box-sizing: 100%;
+}
+h3{
+    color: #1B1B1B;
+    font-size: 28px;
+}
+
+.headline{
+        
         font-size: 16px;
         font-weight: bold;
         color: #e1624f;
@@ -57,17 +73,31 @@ h6{
         margin: 55px auto 0;
 }
 
-h6 + h2{
+.headline + h2{
     margin-top: 2px;
-    margin-bottom: 6px;
+    margin-bottom: 8px;
 }
 
-div + h6{
+div + .headline{
     margin-top: 64px;
     margin-bottom: 2px;
 }
 
-h2 + p{
+.paragraph{
+    text-align: justify;
+}
+
+h2 + .paragraph{
     margin-top: 8px;
     margin-bottom: 64px;
+}
+
+
+img + ol{
+    margin-top: 20px;
+}
+
+.history{
+    color: #0C51A7;
+    font-weight: bold;
 }
