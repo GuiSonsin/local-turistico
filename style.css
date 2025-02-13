@@ -58,13 +58,25 @@ h2{
 li{
     box-sizing: 100%;
 }
+
 h3{
     color: #1B1B1B;
     font-size: 28px;
 }
 
-.headline{
-        
+h3 li{
+    margin-bottom: 4px;
+    margin-left: 40px;
+}
+
+p + img{
+    margin-top: 64px;
+}
+
+img + h3{
+    margin-top: 20px;
+}
+.headline{ 
         font-size: 16px;
         font-weight: bold;
         color: #e1624f;
@@ -87,20 +99,17 @@ div + .headline{
     text-align: justify;
 }
 
-h2 + .paragraph{
-    margin-top: 8px;
-    margin-bottom: 64px;
+.text{
+    margin: px;
 }
-
 
 img + ol{
     margin-top: 20px;
-    padding-left: 30px;
 }
 
 .history{
     color: #0C51A7;
-    font-weight: bold;
+    font-weight: bold; 
 }
 
 ul {
@@ -110,6 +119,6 @@ ul {
 ul li:before {
     
     content: '\2022'; /* coloca uma bolinha */
-    margin: 0 2px; /* espaçamento da bolinha para o que está escrito */
+    margin: 0 7px; /* espaçamento da bolinha para o que está escrito */
     color: black; /* seleciona a cor da bolinha */
    }
