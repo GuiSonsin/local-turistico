@@ -138,3 +138,14 @@ ul li:before {
     margin: 0 7px; /* espaçamento da bolinha para o que está escrito */
     color: black; /* seleciona a cor da bolinha */
    }
+
+footer{
+    text-align: center;
+    margin-top: 98px;
+    margin-bottom: 48px;
+}
+
+footer img{
+    width: 20px;
+    vertical-align: middle;
+}
