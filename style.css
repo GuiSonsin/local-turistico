@@ -95,9 +95,21 @@ h2 + .paragraph{
 
 img + ol{
     margin-top: 20px;
+    padding-left: 30px;
 }
 
 .history{
     color: #0C51A7;
     font-weight: bold;
 }
+
+ul {
+    list-style: none; /* retira o padrao que é a bolinha branca*/
+  }
+
+ul li:before {
+    
+    content: '\2022'; /* coloca uma bolinha */
+    margin: 0 2px; /* espaçamento da bolinha para o que está escrito */
+    color: black; /* seleciona a cor da bolinha */
+   }
